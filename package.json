@@ -1,0 +1,26 @@
+{
+  "name": "huddle_page_alternative",
+  "version": "1.0.0",
+  "description": "A Frontend Mentor - Junior Level Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyv26/Huddle-Landing-Page---Alernative-Section.git"
+  },
+  "author": "Aakash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyv26/Huddle-Landing-Page---Alernative-Section/issues"
+  },
+  "homepage": "https://github.com/skyv26/Huddle-Landing-Page---Alernative-Section#readme",
+  "devDependencies": {
+    "hint": "^7.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
