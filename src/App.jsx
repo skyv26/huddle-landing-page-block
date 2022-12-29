@@ -1,8 +1,13 @@
+import React from 'react';
 import HeroSection from "./components/HeroSection";
+import FeatureSection from "./components/FeatureSection";
 
 const App = () => {
   return (
-    <HeroSection />
+    <React.Fragment>
+      <HeroSection />
+      <FeatureSection />
+    </React.Fragment>
   );
 };
 
