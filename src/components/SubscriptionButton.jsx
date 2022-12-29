@@ -1,9 +1,14 @@
-import React from 'react'
+import PropTypes from 'prop-types';
 
-const SubscriptionButton = () => {
-  return (
-    <div>SubscriptionButton</div>
-  )
+const SubscriptionButton = (props) => <a href="#">{props.children}</a>;
+
+SubscriptionButton.defaultProps = {
+    children: [],
+};
+
+
+SubscriptionButton.propTypes = {
+    children: PropTypes.node.isRequired,
 };
 
 export default SubscriptionButton;
