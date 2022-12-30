@@ -5,8 +5,6 @@ import GrowTogether from '../assets/illustration-grow-together.svg';
 import FlowingTogether from '../assets/illustration-flowing-conversation.svg';
 import YourUser from '../assets/illustration-your-users.svg';
 
-// const FETCH_DATA = 'fetch';
-
 const initialState = [
     {
         title: 'Grow Together',
