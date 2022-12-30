@@ -1,10 +1,12 @@
+import SubscriptionButton from "./SubscriptionButton";
+
 const FeatureSection = () => {
   return (
     <section>
         <ul>
             <li>
                 <h2>Ready To Build Your Community?</h2>
-                <a href="#">Get Started For Free</a>
+                <SubscriptionButton>Get Started For Free</SubscriptionButton>
             </li>
         </ul>
     </section>
