@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
         <div>
-            <Logo />
+            <Logo className="" />
             <address>
                 <div>
                     <img src={LocationIcon} />
