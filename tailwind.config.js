@@ -8,8 +8,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    hero_section: './src/assets/bg-hero-mobile.svg',
     extend: {
+      backgroundImage: {
+        'hero-section': './src/assets/bg-hero-mobile.svg',
+      },
       fontFamily: {
         // add the css variable and include fallback fonts from tailwind default theme
         open_sans: ['Open Sans', ...fontFamily.serif],
