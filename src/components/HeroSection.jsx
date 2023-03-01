@@ -3,7 +3,7 @@ import IllustrationMockUp from '../assets/illustration-mockups.svg';
 
 const HeroSection = () => {
   return (
-    <section className='px-8 flex flex-col gap-14'>
+    <section className='px-8 flex flex-col gap-14 bg-[#EDFBFF]'>
         <div className='flex flex-col pt-32 items-center text-center gap-4'>
             <h1 className='font-semibold text-[#00252E] text-xl'>Build The Community Your Fans Will Love</h1>
             <p className='font-normal text-[#00252E] text-sm'>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
