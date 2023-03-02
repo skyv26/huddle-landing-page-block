@@ -14,8 +14,8 @@ export default {
       },
       fontFamily: {
         // add the css variable and include fallback fonts from tailwind default theme
-        open_sans: ['Open Sans', ...fontFamily.serif],
-        poppins: ['Poppins', ...fontFamily.serif]
+        'open-sans': ['Open Sans', ...fontFamily.sans],
+        'poppins': ['Poppins', ...fontFamily.sans]
       },
     },
   },
