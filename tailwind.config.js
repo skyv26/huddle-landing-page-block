@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-section': './src/assets/bg-hero-mobile.svg',
+        'hero-section': 'url(\'./src/assets/bg-hero-mobile.svg\')',
       },
       fontFamily: {
         // add the css variable and include fallback fonts from tailwind default theme
