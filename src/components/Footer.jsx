@@ -2,13 +2,13 @@ import EmailIcon from '../assets/icon-email.svg';
 import LocationIcon from '../assets/icon-location.svg';
 import PhoneIcon from '../assets/icon-phone.svg';
 import Logo from './Logo';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='bg-[#00252E]'>
         <div>
-            <Logo className="" />
+            <Logo className="fill-white" />
             <address>
                 <div>
                     <img src={LocationIcon} />
@@ -56,17 +56,17 @@ const Footer = () => {
             <ul>
                 <li>
                     <a href="">
-                        <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+                        <FaFacebookF />
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <FontAwesomeIcon icon="fa-brands fa-twitter" />
+                        <FaTwitter />
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                        <FaInstagram />
                     </a>
                 </li>
             </ul>
