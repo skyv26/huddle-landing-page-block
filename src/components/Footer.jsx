@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className='bg-[#00252E]'>
         <div>
-            <Logo className="fill-white" />
+            <Logo className="text-white"/>
             <address>
                 <div>
                     <img src={LocationIcon} />
