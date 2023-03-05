@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between items-center absolute px-4 pt-7">
+    <header className="flex flex-row justify-between items-center absolute w-full px-4 pt-7">
         <a href="#">
             <Logo width="104" height="16" />
         </a>
