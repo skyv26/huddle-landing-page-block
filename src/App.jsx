@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
