@@ -92,7 +92,7 @@ const Footer = () => {
             >
               Frontend Mentor
             </a>
-            . Coded by <a href="#">Aakash Verma ❤️</a>.
+            . Coded by <a href="https://github.com/skyv26">Aakash Verma ❤️</a>.
           </p>
         </div>
       </div>
