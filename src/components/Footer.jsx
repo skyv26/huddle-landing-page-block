@@ -68,12 +68,12 @@ const Footer = () => {
             </a>
           </li>
           <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full">
-            <a href="">
+            <a href="https://twitter.com/devaakashv">
               <FaTwitter />
             </a>
           </li>
           <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full">
-            <a href="">
+            <a href="https://instagram.com/skybrel">
               <FaInstagram />
             </a>
           </li>
