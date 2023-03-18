@@ -35,26 +35,26 @@ const Footer = () => {
       <ul className="flex flex-col gap-4 font-open-sans text-sm text-white">
         <li>
           <ul className="flex flex-col gap-4">
-            <li>
+            <li className="hover:underline max-w-max">
               <a href="#">About Us</a>
             </li>
-            <li>
+            <li className="hover:underline max-w-max">
               <a href="#">What We Do</a>
             </li>
-            <li>
+            <li className="hover:underline max-w-max">
               <a href="#">FAQ</a>
             </li>
           </ul>
         </li>
         <li>
           <ul className="flex flex-col gap-4">
-            <li>
+            <li className="hover:underline max-w-max">
               <a href="#">Career</a>
             </li>
-            <li>
+            <li className="hover:underline max-w-max">
               <a href="#">Blog</a>
             </li>
-            <li>
+            <li className="hover:underline max-w-max">
               <a href="#">Contact Us</a>
             </li>
           </ul>
@@ -62,17 +62,17 @@ const Footer = () => {
       </ul>
       <div className="flex flex-col gap-6 text-white items-center">
         <ul className="flex flex-row gap-3 items-center justify-center">
-          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full">
+          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer">
             <a href="https://www.facebook.com/skybrel">
               <FaFacebookF />
             </a>
           </li>
-          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full">
+          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer">
             <a href="https://twitter.com/devaakashv">
               <FaTwitter />
             </a>
           </li>
-          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full">
+          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer">
             <a href="https://instagram.com/skybrel">
               <FaInstagram />
             </a>
