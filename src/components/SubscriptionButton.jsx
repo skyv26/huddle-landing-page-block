@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const SubscriptionButton = ({ children, className }) => (
-  <a href="#" className={className}>
+  <a href="http://devaakash.com/" target="_blank" rel="noreferrer noopener" className={className}>
     {children}
   </a>
 );
