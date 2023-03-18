@@ -32,7 +32,7 @@ const FeatureSection = () => {
           <h2 className="font-poppins font-semibold text-[16px] text-[#00252E]">
             Ready To Build Your Community?
           </h2>
-          <SubscriptionButton className="text-white bg-[#FF52C1] text-xs max-w-max px-14 py-2.5 rounded-3xl">
+          <SubscriptionButton className="text-white bg-[#FF52C1] text-xs max-w-max px-14 py-2.5 rounded-3xl hover:bg-[#FF9ADB] hover:cursor-pointer">
             Get Started For Free
           </SubscriptionButton>
         </li>
