@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="flex flex-col gap-6 text-white items-center">
         <ul className="flex flex-row gap-3 items-center justify-center">
           <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full">
-            <a href="">
+            <a href="https://www.facebook.com/skybrel">
               <FaFacebookF />
             </a>
           </li>
