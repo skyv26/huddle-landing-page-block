@@ -78,7 +78,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <div className="flex flex-col gap-1 text-xs text-center">
+        <div className="flex flex-col gap-1 text-xs text-center pb-8">
           <p>
             &copy; Copyright {new Date().getFullYear()} Huddle. All rights
             reserved.
