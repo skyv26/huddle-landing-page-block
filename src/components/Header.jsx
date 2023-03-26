@@ -7,7 +7,9 @@ const Header = () => {
         <Logo width="104" height="16" />
       </a>
       <a
-        href=""
+        href="https://devaakash.com/"
+        target="_blank"
+        rel="noreferrer noopener"
         className="py-1 px-6 font-open-sans font-bold text-[10px] bg-white shadow-[0px_2px_7px_0px_rgba(0,0,0,0.1)] rounded-full"
       >
         Try It Free
