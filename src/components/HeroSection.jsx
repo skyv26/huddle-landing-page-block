@@ -13,7 +13,7 @@ const HeroSection = () => {
           so does your audience. Create connections with your users as you
           engage in genuine discussion.{" "}
         </p>
-        <SubscriptionButton className="font-open-sans font-bold text-white bg-[#FF52C1] text-xs max-w-max px-14 py-2.5 rounded-3xl shadow-[2px_3px_6px_1px_rgba(255,82,193,0.17)]">
+        <SubscriptionButton className="font-open-sans font-bold text-white bg-[#FF52C1] text-xs max-w-max px-14 py-2.5 rounded-3xl shadow-[2px_3px_6px_1px_rgba(255,82,193,0.17)] hover:bg-[#FF9ADB] hover:cursor-pointer">
           Get Started For Free
         </SubscriptionButton>
       </div>
