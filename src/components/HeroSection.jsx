@@ -3,7 +3,7 @@ import IllustrationMockUp from "../assets/illustration-mockups.svg";
 
 const HeroSection = () => {
   return (
-    <section className="px-4 flex flex-col gap-14 bg-[#EDFBFF] bg-hero-section bg-no-repeat bg-contain bg-[top_right_0.1rem]">
+    <section className="px-4 flex flex-col gap-14 bg-[#EDFBFF] hero-section bg-no-repeat bg-contain bg-[top_right_0.1rem]">
       <div className="flex flex-col pt-32 items-center text-center gap-4">
         <h1 className="px-9 font-semibold text-[#00252E] text-xl">
           Build The Community Your Fans Will Love
