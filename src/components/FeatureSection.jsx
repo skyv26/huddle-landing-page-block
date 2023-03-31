@@ -13,7 +13,7 @@ const FeatureSection = () => {
             key={index}
             className="px-[26px] pt-[60px] pb-[33px] bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl"
           >
-            <article className="flex flex-col items-center gap-14">
+            <article className={`flex flex-col items-center gap-14 ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
               <figure className="px-4 min-[390px]:px-6">
                 <img src={each.image} />
               </figure>
