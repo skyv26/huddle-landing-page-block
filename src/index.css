@@ -7,3 +7,9 @@
 .hero-section {
     background-image: url('./assets/bg-hero-mobile.svg');
 }
+
+@media (min-width:768px) {
+    .hero-section {
+        background-image: url('./assets/bg-hero-desktop.svg');
+    }
+}
