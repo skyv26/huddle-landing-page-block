@@ -28,7 +28,7 @@ const FeatureSection = () => {
             </article>
           </li>
         ))}
-        <li className="flex flex-col items-center gap-[24px] text-center px-3 py-10 bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl w-full translate-y-[70%] min-[390px]:px-4 min-[390px]:py-12 md:max-w-max md:px-20">
+        <li className="flex flex-col items-center gap-[24px] text-center px-3 py-10 bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl w-full translate-y-[70%] min-[390px]:px-4 min-[390px]:py-12 md:max-w-max md:px-20 md:z-10">
           <h2 className="font-poppins font-semibold text-[16px] text-[#00252E] min-[390px]:text-xl md:text-lg">
             Ready To Build Your Community?
           </h2>
