@@ -1,10 +1,16 @@
 import { useContext } from "react";
 import Store from "../store/store";
-
+import { SHUFFLE } from "../store/ContextProvider";
 import SubscriptionButton from "./SubscriptionButton";
 
 const FeatureSection = () => {
-  const { state } = useContext(Store);
+  const { state, dispatch } = useContext(Store);
+
+  const shuffleHandler = () => {
+    const shuffledList = [...state]
+    dispatch({ type: SHUFFLE, payload: shuffledList })
+  }
+
   return (
     <section className="px-4 pt-14 pb-9 min-[390px]:px-6 md:pt-24 md:pb-9">
       <ul className="flex flex-col gap-10 items-center">
@@ -12,6 +18,7 @@ const FeatureSection = () => {
           <li
             key={index}
             className="px-[26px] pt-[60px] pb-[33px] bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl"
+            onClick={shuffleHandler}
           >
             <article className={`flex flex-col items-center gap-14 ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
               <figure className="px-4 min-[390px]:px-6">
