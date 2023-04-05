@@ -13,7 +13,7 @@ const Footer = () => {
         
       <div className="flex flex-col gap-7 md:flex-none md:grid md:grid-cols-3">
         <address className="flex flex-col gap-6 not-italic items-start font-open-sans text-sm text-white min-[390px]:text-base md:text-sm md:gap-4">
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 md:gap-6">
             <figure className="w-[24px] pt-[0.2rem]">
               <img src={LocationIcon} className="" />
             </figure>
