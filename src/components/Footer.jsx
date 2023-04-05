@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 md:relative">
+    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 md:relative xl:px-12">
       <figure className="-ml-1">
         <Logo className="text-white inline-block w-[167px] h-[26px]" />
       </figure>
