@@ -12,7 +12,7 @@ const FeatureSection = () => {
   }
 
   return (
-    <section className="px-4 pt-14 pb-9 min-[390px]:px-6 md:pt-24 md:pb-9">
+    <section className="px-4 pt-14 pb-9 min-[390px]:px-6 md:pt-24 md:pb-9 lg:px-12">
       <ul className="flex flex-col gap-10 items-center">
         {state.map((each, index) => (
           <li
@@ -20,7 +20,7 @@ const FeatureSection = () => {
             className="px-[26px] pt-[60px] pb-[33px] bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl"
             onClick={shuffleHandler}
           >
-            <article className={`flex flex-col items-center gap-14 ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
+            <article className={`flex flex-col items-center gap-14 ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'} md:pl-14 xl:pl-20`}>
               <figure className="px-4 min-[390px]:px-6">
                 <img src={each.image} />
               </figure>
@@ -35,11 +35,11 @@ const FeatureSection = () => {
             </article>
           </li>
         ))}
-        <li className="flex flex-col items-center gap-[24px] text-center px-3 py-10 bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl w-full translate-y-[70%] min-[390px]:px-4 min-[390px]:py-12 md:max-w-max md:px-20 md:z-10 lg:gap-10">
-          <h2 className="font-poppins font-semibold text-[16px] text-[#00252E] min-[390px]:text-xl md:text-lg lg:text-[30px]">
+        <li className="flex flex-col items-center gap-[24px] text-center px-3 py-10 bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl w-full translate-y-[70%] min-[390px]:px-4 min-[390px]:py-12 md:max-w-max md:px-20 md:z-10 lg:gap-10 xl:px-28 xl:py-16 xl:translate-y-[60%]">
+          <h2 className="font-poppins font-semibold text-[16px] text-[#00252E] min-[390px]:text-xl md:text-lg lg:text-[30px] xl:text-4xl">
             Ready To Build Your Community?
           </h2>
-          <SubscriptionButton className="text-white bg-[#FF52C1] font-open-sans font-bold text-xs max-w-max px-14 py-2.5 rounded-full hover:bg-[#FF9ADB] hover:cursor-pointer min-[390px]:text-sm lg:text-base lg:px-16 lg:py-4">
+          <SubscriptionButton className="text-white bg-[#FF52C1] font-open-sans font-bold text-xs max-w-max px-14 py-2.5 rounded-full hover:bg-[#FF9ADB] hover:cursor-pointer min-[390px]:text-sm lg:text-base lg:px-16 lg:py-4 xl:text-lg xl:px-20 xl:py-6">
             Get Started For Free
           </SubscriptionButton>
         </li>
