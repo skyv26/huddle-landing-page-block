@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="px-4 pt-32 pb-9 flex flex-col gap-14 bg-[#EDFBFF] hero-section bg-no-repeat bg-contain bg-[top_right_0.1rem] items-center min-[390px]:h-screen min-[390px]:px-6 min-[390px]:gap-16 md:flex-row md:pt-40 md:h-auto md:gap-12 lg:px-12 xl:h-screen">
       <div className="flex flex-col items-center text-center gap-4 min-[390px]:gap-8 md:text-left md:items-start md:gap-8">
-        <h1 className="px-9 font-semibold text-[#00252E] text-xl min-[390px]:text-3xl md:px-0 md:text-xl md:pr-8 lg:text-3xl xl:text-[40px] xl:leading-normal">
+        <h1 className="px-8 font-poppins font-semibold text-[#00252E] text-xl min-[375px]:text-2xl md:px-0 md:text-xl md:pr-8 lg:text-3xl xl:text-[40px] xl:leading-normal min-[1366px]:text-5xl min-[1366px]:leading-[60px]">
           Build The Community Your Fans Will Love
         </h1>
         <p className="px-3 font-normal font-open-sans text-[#00252E] text-sm min-[390px]:text-base md:px-0 md:text-sm lg:text-base xl:text-lg">
