@@ -8,12 +8,12 @@ const Footer = () => {
   return (
     <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 md:relative xl:px-12">
       <figure className="-ml-1">
-        <Logo className="text-white inline-block w-[167px] h-[26px]" />
+        <Logo className="text-white inline-block w-[167px] h-[26px] min-[1366px]:w-[152px] min-[1366px]:h-[24px]" />
       </figure>
         
       <div className="flex flex-col gap-7 md:flex-none md:grid md:grid-cols-3">
         <address className="flex flex-col gap-6 not-italic items-start font-open-sans text-sm text-white min-[390px]:text-base md:text-sm md:gap-4">
-          <div className="flex flex-row gap-4 md:gap-6 lg:gap-4">
+          <div className="flex flex-row gap-4 md:gap-6 lg:gap-4 min-[1366px]:gap-[17px]">
             <figure className="w-[24px] pt-[0.2rem]">
               <img src={LocationIcon} className="" />
             </figure>
@@ -32,9 +32,9 @@ const Footer = () => {
             <a href="mailto:dev.aakashv@gmail.com">dev.aakashv@gmail.com</a>
           </div>
         </address>
-      <ul className="flex flex-col gap-4 font-open-sans text-sm text-white min-[390px]:text-base md:flex-row md:text-sm md:gap-16">
+      <ul className="flex flex-col gap-4 font-open-sans text-sm text-white min-[390px]:text-base md:flex-row md:text-sm md:gap-16 min-[1366px]:gap-[165px]">
         <li>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-4 min-[1366px]:gap-3">
             <li className="hover:underline max-w-max">
               <a href="#">About Us</a>
             </li>
