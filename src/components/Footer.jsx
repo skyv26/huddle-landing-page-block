@@ -6,18 +6,17 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 md:relative xl:px-12">
+    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 md:relative xl:px-12 min-[1440px]:px-28 min-[1440px]:pt-[200px]">
       <figure className="-ml-1">
-        <Logo className="text-white inline-block w-[167px] h-[26px] min-[1366px]:w-[152px] min-[1366px]:h-[24px]" />
+        <Logo className="text-white inline-block w-[167px] h-[26px] min-[1366px]:w-[152px] min-[1366px]:h-[24px] min-[1440px]:w-[267px] min-[1440px]:h-[38px]" />
       </figure>
-        
-      <div className="flex flex-col gap-7 md:flex-none md:grid md:grid-cols-3">
-        <address className="flex flex-col gap-6 not-italic items-start font-open-sans text-sm text-white min-[390px]:text-base md:text-sm md:gap-4">
+      <div className="flex flex-col gap-7 md:flex-row md:gap-14 md:w-full md:justify-between min-[1440px]:justify-center">
+        <address className="flex flex-col gap-6 not-italic items-start font-open-sans text-sm text-white min-[390px]:text-base md:text-sm md:gap-4 md:w-[12rem] lg:w-[20rem] min-[1440px]:w-[24.75rem] min-[1440px]:px-3 min-[1440px]:text-lg min-[1440px]:gap-6">
           <div className="flex flex-row gap-4 md:gap-6 lg:gap-4 min-[1366px]:gap-[17px]">
-            <figure className="w-[24px] pt-[0.2rem]">
+            <figure className="w-[24px] pt-[0.2rem] md:w-[52px]">
               <img src={LocationIcon} className="" />
             </figure>
-            <p>Aakash Verma, Freelance Software Engineer, Punjab, INDIA 🇮🇳</p>
+            <p className="min-[1440px]:leading-6">I am Aakash Verma, Freelance Software Engineer with 4+ years of overall IT experience from Punjab, INDIA 🇮🇳</p>
           </div>
           <div className="flex flex-row gap-4">
             <figure className="">
@@ -32,7 +31,7 @@ const Footer = () => {
             <a href="mailto:dev.aakashv@gmail.com">dev.aakashv@gmail.com</a>
           </div>
         </address>
-      <ul className="flex flex-col gap-4 font-open-sans text-sm text-white min-[390px]:text-base md:flex-row md:text-sm md:gap-16 min-[1366px]:gap-[165px]">
+      <ul className="flex flex-col gap-4 font-open-sans text-sm text-white min-[390px]:text-base md:flex-row md:text-sm md:gap-16 min-[1366px]:gap-[165px] min-[1440px]:gap-[120px] min-[1440px]:text-lg">
         <li>
           <ul className="flex flex-col gap-4 min-[1366px]:gap-3">
             <li className="hover:underline max-w-max">
@@ -60,8 +59,8 @@ const Footer = () => {
           </ul>
         </li>
       </ul>
-      <div className="flex flex-col gap-6 text-white items-center md:items-start">
-        <ul className="flex flex-row gap-3 items-center justify-center">
+      <div className="flex flex-col gap-6 text-white items-center md:items-start md:w-[12rem] lg:w-auto min-[1440px]:w-0 min-[1440px]:gap-28">
+        <ul className="flex flex-row gap-3 items-center justify-center pl-0">
           <li className="flex flex-row items-center justify-center w-10 h-10 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer md:w-8 md:h-8">
             <a href="https://www.facebook.com/skybrel">
               <FaFacebookF className="text-xl md:text-sm" />
@@ -78,7 +77,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <div className="flex flex-col gap-1 text-xs text-center pb-8 md:text-left md:pt-14 md:pb-14">
+        <div className="flex flex-col gap-1 text-xs text-center pb-8 md:text-left md:pt-24 md:pb-14 lg:pt-14">
           <p>
             &copy; Copyright {new Date().getFullYear()} Huddle. All rights
             reserved.
