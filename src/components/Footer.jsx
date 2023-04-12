@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 xl:px-12 min-[1440px]:px-28 min-[1440px]:pt-[192px] min-[1440px]:pb-[13px]">
+    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 xl:px-12 min-[1440px]:px-28 min-[1440px]:pt-[192px] min-[1440px]:pb-[10px]">
       <figure className="-ml-1">
         <Logo className="text-white inline-block w-[167px] h-[26px] min-[1366px]:w-[152px] min-[1366px]:h-[24px] min-[1440px]:w-[267px] min-[1440px]:h-[38px]" />
       </figure>
@@ -84,7 +84,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-        <p className="md:absolute md:w-full md:left-0 md:bottom-3 text-white md:text-center min-[1440px]:rigt-0 min-[1440px]:text-sm">
+        <p className="text-xs bottom-3 text-white text-center absolute w-full left-0 min-[1440px]:rigt-0">
             Challenge by{" "}
             <a
               href="https://www.frontendmentor.io?ref=challenge"

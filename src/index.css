@@ -13,3 +13,14 @@
     background-image: url("./assets/bg-hero-desktop.svg");
   }
 }
+
+body {
+  position: relative;
+}
+
+@media (min-width: 1440px) {
+  header, main, footer {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
