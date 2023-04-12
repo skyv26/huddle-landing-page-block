@@ -12,7 +12,7 @@ const FeatureSection = () => {
   };
 
   return (
-    <section className="px-4 pt-14 pb-9 min-[390px]:px-6 md:pt-24 md:pb-9 lg:px-12 min-[1440px]:px-[102px] min-[1440px]:pt-[160px] min-[1440px]:pb-0">
+    <section className="px-4 pt-14 pb-9 min-[390px]:px-6 md:pt-24 md:pb-9 lg:px-12 min-[1440px]:px-[102px] min-[1440px]:pt-[160px] min-[1440px]:pb-11">
       <ul className="flex flex-col gap-10 items-center min-[1440px]:w-full min-[1440px]:gap-[42px]">
         {state.map((each, index) => (
           <li
