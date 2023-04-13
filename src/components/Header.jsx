@@ -10,8 +10,9 @@ const Header = () => {
         href="https://devaakash.com/"
         target="_blank"
         rel="noreferrer noopener"
-        className="py-1 px-6 font-open-sans font-bold text-[10px] bg-white shadow-[0px_2px_7px_0px_rgba(0,0,0,0.1)] rounded-full md:text-xs md:px-[2.0325rem] md:py-[0.475rem] min-[1366px]:text-sm min-[1366px]:px-[2.0325rem] min-[1366px]:py-[0.475rem] min-[1440px]:px-[4.0325rem] min-[1440px]:py-[0.91rem]"
+        className="py-1 px-6 font-open-sans font-bold text-[10px] bg-white shadow-[0px_2px_7px_0px_rgba(0,0,0,0.1)] rounded-full md:text-xs md:px-[2.0325rem] md:py-[0.475rem] lg:shadow-[0px_3px_11px_0px_rgba(0,0,0,0.1)] min-[1366px]:text-sm min-[1366px]:px-[2.0325rem] min-[1366px]:py-[0.475rem] min-[1440px]:px-[4.0325rem] min-[1440px]:py-[0.91rem]"
       >
+
         Try It Free
       </a>
     </header>
