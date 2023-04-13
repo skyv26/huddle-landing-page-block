@@ -6,27 +6,31 @@ import FlowingTogether from "../assets/illustration-flowing-conversation.svg";
 import YourUser from "../assets/illustration-your-users.svg";
 
 export const SHUFFLE = 'shuffle';
+export const SWITCH_THEME = 'switch_mode';
 
-const initialState = [
-  {
-    title: "Grow Together",
-    description:
-      "Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.",
-    image: GrowTogether,
-  },
-  {
-    title: "Flowing Conversations",
-    description:
-      "You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.",
-    image: FlowingTogether,
-  },
-  {
-    title: "Your Users",
-    description:
-      "It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.",
-    image: YourUser,
-  },
-];
+const initialState = {
+  data: [
+    {
+      title: "Grow Together",
+      description:
+        "Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.",
+      image: GrowTogether,
+    },
+    {
+      title: "Flowing Conversations",
+      description:
+        "You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.",
+      image: FlowingTogether,
+    },
+    {
+      title: "Your Users",
+      description:
+        "It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.",
+      image: YourUser,
+    },
+  ],
+  mode: false,
+};
 
 const shuffleList = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -39,7 +43,9 @@ const shuffleList = (array) => {
 const storeReducer = (state, action) => {
   switch(action.type) {
     case SHUFFLE:
-      return shuffleList(action.payload)
+      return { data: shuffleList(action.payload), mode: state.mode };
+    case SWITCH_THEME:
+      return { ...action.payload };
     default:
       return state;
   }
