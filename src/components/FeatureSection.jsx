@@ -7,14 +7,14 @@ const FeatureSection = () => {
   const { state, dispatch } = useContext(Store);
 
   const shuffleHandler = () => {
-    const shuffledList = [...state];
+    const shuffledList = [...state.data];
     dispatch({ type: SHUFFLE, payload: shuffledList })
   };
 
   return (
     <section className="px-4 pt-14 pb-9 min-[390px]:px-6 md:pt-24 md:pb-9 lg:px-12 min-[1440px]:px-[102px] min-[1440px]:pt-[160px] min-[1440px]:pb-11">
       <ul className="flex flex-col gap-10 items-center min-[1440px]:w-full min-[1440px]:gap-[42px]">
-        {state.map((each, index) => (
+        {state.data.map((each, index) => (
           <li
             key={index}
             className={`px-[26px] pt-[60px] pb-[33px] bg-white shadow-[0_0_14px_0px_rgba(0,0,0,0.07)] rounded-2xl min-[1440px]:w-full ${index === 1 ? 'min-[1440px]:pt-[75px] min-[1440px]:pl-[126px] min-[1440px]:pr-8 min-[1440px]:pb-[70px]' : index === 2 ? 'min-[1440px]:pt-16 min-[1440px]:pl-[120px] min-[1440px]:pr-8 min-[1440px]:pb-[47px]' : 'min-[1440px]:pt-12 min-[1440px]:pl-[120px] min-[1440px]:pr-8 min-[1440px]:pb-[47px]'}`}
