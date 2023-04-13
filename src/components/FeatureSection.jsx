@@ -39,7 +39,7 @@ const FeatureSection = () => {
           <h2 className="font-poppins font-semibold text-[16px] text-[#00252E] min-[390px]:text-xl md:text-lg lg:text-[30px] xl:text-4xl min-[1440px]:text-[31.75px]">
             Ready To Build Your Community?
           </h2>
-          <SubscriptionButton className="text-white bg-[#FF52C1] font-open-sans font-bold text-xs max-w-max px-14 py-2.5 rounded-full hover:bg-[#FF9ADB] hover:cursor-pointer min-[390px]:text-sm lg:text-base lg:px-16 lg:py-4 xl:text-lg xl:px-20 xl:py-6 min-[1440px]:py-[26px] min-[1440px]:px-24 min-[1440px]:text-xl">
+          <SubscriptionButton className="text-white bg-[#FF52C1] font-open-sans font-bold text-xs max-w-max px-14 py-2.5 rounded-full shadow-[0px_6px_13px_0px_rgba(0,37,46,0.22)] hover:bg-[#FF9ADB] hover:cursor-pointer min-[390px]:text-sm lg:text-base lg:px-16 lg:py-4 xl:text-lg xl:px-20 xl:py-6 min-[1440px]:py-[26px] min-[1440px]:px-24 min-[1440px]:text-xl">
             Get Started For Free
           </SubscriptionButton>
         </li>
