@@ -2,11 +2,15 @@ import EmailIcon from "../assets/icon-email.svg";
 import LocationIcon from "../assets/icon-location.svg";
 import PhoneIcon from "../assets/icon-phone.svg";
 import Logo from "./Logo";
+import Store from "../store/store";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { useContext } from "react";
 
 const Footer = () => {
+  const { state } = useContext(Store);
+
   return (
-    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 xl:px-12 min-[1440px]:px-28 min-[1440px]:pt-[192px] min-[1440px]:pb-[10px]">
+    <footer className={` ${state.mode ? 'bg-black' : 'bg-[#00252E]'} ${state.mode ? 'shadow-[0px_1px_4px_4px_rgba(255,255,255,1)]' : ''} px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 xl:px-12 min-[1440px]:px-28 min-[1440px]:pt-[192px] min-[1440px]:pb-[10px]`}>
       <figure className="-ml-1">
         <Logo className="text-white inline-block w-[167px] h-[26px] min-[1366px]:w-[152px] min-[1366px]:h-[24px] min-[1440px]:w-[267px] min-[1440px]:h-[38px]" />
       </figure>
