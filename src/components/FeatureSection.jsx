@@ -22,7 +22,7 @@ const FeatureSection = () => {
           >
             <article className={`flex flex-col items-center gap-14 ${(index+1) % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} md:pl-14 xl:pl-20 min-[1440px]:justify-between min-[1440px]:pl-0`}>
             <figure className={`px-4 min-[390px]:px-6 min-[1440px]:px-0 min-[1440px]:w-[25.75rem]`}>
-                <img src={each.image} />
+                <img src={each.image} alt={each.alt} />
               </figure>
               <div className={`flex flex-col gap-4 text-center md:text-left min-[1440px]:w-[490px] min-[1440px]:pt-3.5 ${index === 1&&'min-[1440px]:w-[500px]'}`}>
                 <h2 className={`${ state.mode ? 'text-white' : 'text-[#00252E]' } text-[20px] font-poppins font-semibold min-[390px]:text-2xl md:text-xl lg:text-2xl min-[1440px]:text-3xl ${index === 1 ? 'min-[1440px]:tracking-[-1px]' : 'min-[1440px]:tracking-[-0.7px]'}`}>
