@@ -14,7 +14,8 @@
   }
 }
 
-body {
+body,
+#root {
   position: relative;
 }
 
