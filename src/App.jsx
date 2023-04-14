@@ -28,12 +28,18 @@ const App = () => {
         <FeatureSection />
       </main>
       <Footer />
-      <DarkModeSwitch
-      style={{ marginBottom: '2rem' }}
-      checked={state.mode}
-      onChange={toggleDarkMode}
-      size={120}
-    />
+      <div
+        className="flex flex-row items-center justify-center w-[3.25rem] h-[3.25rem] p-2 fixed bottom-3 right-3 bg-black rounded-full"
+      >
+        <DarkModeSwitch
+          checked={state.mode}
+          className="inline-block rounded-full"
+          onChange={toggleDarkMode}
+          size={50}
+          sunColor="yellow"
+          moonColor="white"
+        />
+      </div>
     </React.Fragment>
   );
 };
