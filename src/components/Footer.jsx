@@ -18,19 +18,19 @@ const Footer = () => {
         <address className="flex flex-col gap-6 not-italic items-start font-open-sans text-sm text-white min-[390px]:text-base md:text-sm md:gap-4 md:w-[12rem] lg:w-[20rem] min-[1440px]:w-[24.75rem] min-[1440px]:px-3 min-[1440px]:text-lg min-[1440px]:gap-5">
           <div className="flex flex-row gap-4 md:gap-6 lg:gap-4 justify-center min-[1366px]:gap-[17px]">
             <figure className="w-[24px] pt-[0.2rem] md:w-[52px] min-[1440px]:pt-[0.5rem]">
-              <img src={LocationIcon} className="min-[1440px]:mr-[-1rem]" />
+              <img src={LocationIcon} className="min-[1440px]:mr-[-1rem]" alt="aakash is open for remote opportunity" />
             </figure>
             <p className="min-[1440px]:leading-6">I am Aakash Verma, Freelance Software Engineer with 4+ years of overall IT experience from Punjab, INDIA 🇮🇳</p>
           </div>
           <div className="flex flex-row gap-4 items-center justify-center">
             <figure className="">
-              <img src={PhoneIcon} className="" />
+              <img src={PhoneIcon} alt="contact aakash on phone" />
             </figure>
             <a href="tel:+917009243305">+91-700-924-3305</a>
           </div>
           <div className="flex flex-row gap-4 items-center justify-center">
             <figure className="">
-              <img src={EmailIcon} className="" />
+              <img src={EmailIcon} alt="contact aakash on email" />
             </figure>
             <a href="mailto:dev.aakashv@gmail.com">dev.aakashv@gmail.com</a>
           </div>
