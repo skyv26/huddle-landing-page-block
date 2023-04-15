@@ -66,17 +66,17 @@ const Footer = () => {
       <div className="flex flex-col gap-6 text-white items-center md:items-start md:w-[12rem] lg:w-auto min-[1440px]:w-auto min-[1440px]:gap-28 min-[1440px]:translate-x-8">
         <ul className="flex flex-row gap-3 items-center justify-center pl-0">
           <li className="flex flex-row items-center justify-center w-10 h-10 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer md:w-8 md:h-8">
-            <a href="https://www.facebook.com/skybrel">
+            <a href="https://www.facebook.com/skybrel" aria-label="let's connect with aakash on facebook" target="_blank" rel="noreferrer noopener">
               <FaFacebookF className="text-xl md:text-sm" />
             </a>
           </li>
           <li className="flex flex-row items-center justify-center w-10 h-10 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer md:w-8 md:h-8">
-            <a href="https://twitter.com/devaakashv">
+            <a href="https://twitter.com/devaakashv" aria-label="let's connect with aakash on X" target="_blank" rel="noreferrer noopener">
               <FaTwitter className="text-xl md:text-sm" />
             </a>
           </li>
           <li className="flex flex-row items-center justify-center w-10 h-10 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer md:w-8 md:h-8">
-            <a href="https://instagram.com/skybrel">
+            <a href="https://instagram.com/skybrel" aria-label="let's connect with aakash on instagram" target="_blank" rel="noreferrer noopener">
               <FaInstagram className="text-xl md:text-sm" />
             </a>
           </li>
