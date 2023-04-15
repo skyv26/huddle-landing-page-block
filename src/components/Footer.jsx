@@ -39,26 +39,26 @@ const Footer = () => {
         <li>
           <ul className="flex flex-col gap-4 min-[1366px]:gap-3 min-[1440px]:gap-[16px]">
             <li className="hover:underline max-w-max">
-              <a href="#">About Us</a>
+              <a href="#" aria-label="Read more about aakash on linkedin">About Us</a>
             </li>
             <li className="hover:underline max-w-max">
-              <a href="#">What We Do</a>
+              <a href="#" aria-label="Aakash deals in software services">What We Do</a>
             </li>
             <li className="hover:underline max-w-max">
-              <a href="#">FAQ</a>
+              <a href="#" aria-label="Feel free to ask any question to aakash">FAQ</a>
             </li>
           </ul>
         </li>
         <li>
           <ul className="flex flex-col gap-4">
             <li className="hover:underline max-w-max">
-              <a href="#">Career</a>
+              <a href="#" aria-label="Aakash is a software engineer">Career</a>
             </li>
             <li className="hover:underline max-w-max">
-              <a href="#">Blog</a>
+              <a href="#" aria-label="Blog is coming soon...">Blog</a>
             </li>
             <li className="hover:underline max-w-max">
-              <a href="#">Contact Us</a>
+              <a href="#" aria-label="Contact aakash on the given addresses">Contact Us</a>
             </li>
           </ul>
         </li>
