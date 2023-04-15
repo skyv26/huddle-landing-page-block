@@ -22,7 +22,7 @@ const HeroSection = () => {
         </SubscriptionButton>
       </div>
       <figure className="w-auto md:w-[100rem] min-[1440px]:w-[1520px]">
-        <img src={IllustrationMockUp} />
+        <img src={IllustrationMockUp} alt="build the community" />
       </figure>
     </section>
   );
