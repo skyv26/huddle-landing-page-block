@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="flex flex-row justify-between items-center absolute top-0 left-[50%] translate-x-[-50%] w-full px-4 pt-7 min-[390px]:px-6 md:pt-10 lg:px-12 min-[1440px]:px-20 min-[1440px]:py-12">
-      <a href="#">
+      <a href="#" aria-label="home page">
         <Logo className={`w-[104px] h-[16px] md:w-[170px] md:h-[25px] min-[1366px]:w-[200px] min-[1366px]:h-[32px] ${ state.mode ? 'text-white' : '' }`} />
       </a>
       <a
