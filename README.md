@@ -35,35 +35,18 @@
 
 # 📖 Huddle Landing Page <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**Huddle's sleek landing page offers seamless team collaboration, providing tools for effortless communication and productivity.**
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+    <li><a href="https://vitejs.dev/">Vite.js</a></li>
+    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
 </details>
 
 <!-- Features -->
