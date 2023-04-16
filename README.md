@@ -53,11 +53,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **Responsive Design**
+- **Mobile First Design**
+- **Designed with tailwindcss**
+- **Light and dark mode**
+- **Interactive**
+- **Context API for global state management**
+- **React Hooks**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,9 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Click Here](https://skyv26.github.io/huddle-landing-page-block/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,47 +76,36 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Node.js
+- React.js
+- Vite.js
+- TailwindCSS
+- React Hooks
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd your-desired-folder
+  git clone git@github.com:skyv26/huddle-landing-page-block.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
-  cd my-project
-  gem install
+  cd huddle-landing-page-block
+  npm install
 ```
---->
 
 ### Usage
 
