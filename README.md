@@ -111,37 +111,40 @@ Install this project with:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+#### Run the server
 
 ```sh
-  rails server
+  npm run dev
 ```
---->
+#### Run for Build
+
+```sh
+  npm run build
+```
+
+#### Run for gh-pages deployment
+
+```sh
+  npm run deploy
+```
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+   npm run test 
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+- gh-pages (GitHub Pages)
+- Netlify
+- Vercel
+- Render
+- Railway App
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,19 +152,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Aakash Verma**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@skyv26](https://github.com/skyv26)
+- Twitter: [@devaakashv](https://twitter.com/devaakashv)
+- LinkedIn: [skyv2022](https://linkedin.com/in/skyv2022)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
