@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Store from "./store/store";
 import { SWITCH_THEME } from "./store/ContextProvider";
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import { localStorageNameKey } from "./store/ContextProvider";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
 
   const toggleDarkMode = () => {
     const { data, mode } = state;
+    localStorage.setItem(localStorageNameKey, JSON.stringify(!mode));
     const newObj = {
       data,
       mode: !mode,

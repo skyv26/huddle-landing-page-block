@@ -34,7 +34,7 @@ const initialState = {
 
     },
   ],
-  mode: localStorage.getItem(localStorageNameKey)??false,
+  mode: JSON.parse(localStorage.getItem(localStorageNameKey))??false,
 };
 
 const shuffleList = (array) => {
