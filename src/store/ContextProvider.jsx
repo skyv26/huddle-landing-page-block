@@ -7,6 +7,7 @@ import YourUser from "../assets/illustration-your-users.svg";
 
 export const SHUFFLE = 'shuffle';
 export const SWITCH_THEME = 'switch_mode';
+export const localStorageNameKey = '_aakash-huddle-project-mode_';
 
 const initialState = {
   data: [
@@ -33,7 +34,7 @@ const initialState = {
 
     },
   ],
-  mode: false,
+  mode: localStorage.getItem(localStorageNameKey)??false,
 };
 
 const shuffleList = (array) => {
