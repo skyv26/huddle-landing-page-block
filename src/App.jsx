@@ -1,9 +1,18 @@
-import './App.css'
+import React from 'react';
+import HeroSection from "./components/HeroSection";
+import FeatureSection from "./components/FeatureSection";
+import Footer from './components/Footer';
 
-export default function App() {
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <React.Fragment>
+      <main>
+        <HeroSection />
+        <FeatureSection />
+      </main>
+      <Footer />
+    </React.Fragment>
   );
-}
+};
+
+export default App;
