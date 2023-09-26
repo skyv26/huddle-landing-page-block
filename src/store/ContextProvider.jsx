@@ -5,6 +5,8 @@ import GrowTogether from "../assets/illustration-grow-together.svg";
 import FlowingTogether from "../assets/illustration-flowing-conversation.svg";
 import YourUser from "../assets/illustration-your-users.svg";
 
+export const SHUFFLE = 'shuffle';
+
 const initialState = [
   {
     title: "Grow Together",
@@ -26,9 +28,21 @@ const initialState = [
   },
 ];
 
+const shuffleList = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+}
+
 const storeReducer = (state, action) => {
-  if (action.type === "NOT") return true;
-  return state;
+  switch(action.type) {
+    case SHUFFLE:
+      return shuffleList(action.payload)
+    default:
+      return state;
+  }
 };
 
 const ContextProvider = ({ children }) => {

@@ -6,12 +6,13 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10">
-      <div className="flex flex-col gap-7">
-        <figure className="-ml-1">
-          <Logo className="text-white inline-block" width="167" height="26" />
-        </figure>
-        <address className="flex flex-col gap-6 not-italic items-start font-open-sans text-sm text-white">
+    <footer className="bg-[#00252E] px-4 pt-[139px] flex flex-col gap-10 min-[390px]:pt-44 min-[390px]:px-6 md:relative">
+      <figure className="-ml-1">
+        <Logo className="text-white inline-block w-[167px] h-[26px]" />
+      </figure>
+        
+      <div className="flex flex-col gap-7 md:flex-none md:grid md:grid-cols-3">
+        <address className="flex flex-col gap-6 not-italic items-start font-open-sans text-sm text-white min-[390px]:text-base md:text-sm md:gap-4">
           <div className="flex flex-row gap-4">
             <figure className="w-[24px] pt-[0.2rem]">
               <img src={LocationIcon} className="" />
@@ -31,8 +32,7 @@ const Footer = () => {
             <a href="mailto:dev.aakashv@gmail.com">dev.aakashv@gmail.com</a>
           </div>
         </address>
-      </div>
-      <ul className="flex flex-col gap-4 font-open-sans text-sm text-white">
+      <ul className="flex flex-col gap-4 font-open-sans text-sm text-white min-[390px]:text-base md:flex-row md:text-sm md:gap-16">
         <li>
           <ul className="flex flex-col gap-4">
             <li className="hover:underline max-w-max">
@@ -60,30 +60,30 @@ const Footer = () => {
           </ul>
         </li>
       </ul>
-      <div className="flex flex-col gap-6 text-white items-center">
+      <div className="flex flex-col gap-6 text-white items-center md:items-start">
         <ul className="flex flex-row gap-3 items-center justify-center">
-          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer">
+          <li className="flex flex-row items-center justify-center w-10 h-10 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer md:w-8 md:h-8">
             <a href="https://www.facebook.com/skybrel">
-              <FaFacebookF />
+              <FaFacebookF className="text-xl md:text-sm" />
             </a>
           </li>
-          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer">
+          <li className="flex flex-row items-center justify-center w-10 h-10 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer md:w-8 md:h-8">
             <a href="https://twitter.com/devaakashv">
-              <FaTwitter />
+              <FaTwitter className="text-xl md:text-sm" />
             </a>
           </li>
-          <li className="flex flex-row items-center justify-center w-8 h-8 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer">
+          <li className="flex flex-row items-center justify-center w-10 h-10 border-[1px] border-white rounded-full hover:text-[#FF52C1] hover:border-[#FF52C1] hover:cursor-pointer md:w-8 md:h-8">
             <a href="https://instagram.com/skybrel">
-              <FaInstagram />
+              <FaInstagram className="text-xl md:text-sm" />
             </a>
           </li>
         </ul>
-        <div className="flex flex-col gap-1 text-xs text-center pb-8">
+        <div className="flex flex-col gap-1 text-xs text-center pb-8 md:text-left md:pt-14 md:pb-14">
           <p>
             &copy; Copyright {new Date().getFullYear()} Huddle. All rights
             reserved.
           </p>
-          <p>
+          <p className="md:absolute md:w-full md:left-0 md:bottom-3 md:text-center">
             Challenge by{" "}
             <a
               href="https://www.frontendmentor.io?ref=challenge"
@@ -96,6 +96,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
+    </div>
+
     </footer>
   );
 };
