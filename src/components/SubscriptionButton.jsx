@@ -1,14 +1,19 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-const SubscriptionButton = (props) => <a href="#">{props.children}</a>;
+const SubscriptionButton = ({ children, className }) => (
+  <a href="http://devaakash.com/" target="_blank" rel="noreferrer noopener" className={className}>
+    {children}
+  </a>
+);
 
 SubscriptionButton.defaultProps = {
-    children: [],
+  children: [],
+  className: "",
 };
 
-
 SubscriptionButton.propTypes = {
-    children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
 };
 
 export default SubscriptionButton;
