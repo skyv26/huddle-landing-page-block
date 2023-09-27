@@ -29,7 +29,7 @@ const App = () => {
       </main>
       <Footer />
       <div
-        className="flex flex-row items-center justify-center w-[3.25rem] h-[3.25rem] p-2 fixed bottom-3 right-3 bg-black rounded-full"
+        className="flex flex-row items-center justify-center w-[3.25rem] h-[3.25rem] p-2 absolute bottom-3 right-3 bg-black rounded-full"
       >
         <DarkModeSwitch
           checked={state.mode}
