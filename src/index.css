@@ -14,15 +14,7 @@
   }
 }
 
-body {
+body,
+#root {
   position: relative;
-}
-
-@media (min-width: 1440px) {
-  header,
-  main,
-  footer {
-    max-width: 1440px;
-    margin: auto;
-  }
 }
